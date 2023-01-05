@@ -20,7 +20,7 @@
 
             <div>
                 <label for="thumb">img path</label>
-                <input type="text" name="thumb" id="thumb">
+                <input type="text" name="thumb" id="thumb" value="https://picsum.photos/200/300">
             </div>
 
             <div>
