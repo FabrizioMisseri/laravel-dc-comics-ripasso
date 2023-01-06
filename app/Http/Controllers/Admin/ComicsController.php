@@ -124,4 +124,32 @@ class ComicsController extends Controller
         $comic->delete();
         return redirect()->route('comics.index');
     }
+
+
+
+
+    // VALIDATION FUNCTION
+
+    // $data = $this->validation($request->all());
+
+
+    // private function validation($data) {
+    //     $validationResult = Validator::make($data, [
+    //         'title' => 'required|min:5|max:100',
+    //         'image' => 'required',
+    //         'type' => 'required',
+    //         'coocking_time' => 'required|max:50',
+    //         'weight' => 'required|max:50',
+    //         'description' => 'required'
+    //     ], [
+    //         'title.required' => 'Il titolo è obbligatorio',
+    //         'title.min' => 'Il titolo deve essere almeno di :min caratteri',
+    //         'title.max' => 'Il titolo non può superare :max caratteri',
+    //         'image.required' => 'L\'immagine è obbligatoria',
+    //         'type.required' => 'La tipologia è obbligatoria',
+    //         'coocking_time' => 'Il tempo di cottura sbagliato'
+    //         //... 
+    //     ])->validate();
+    //     return $validationResult;
+    // }
 }
