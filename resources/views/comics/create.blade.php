@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="p-4">
+    <section class="pb-4 px-4">
 
         <h3>inserisci nuovo fumetto</h3>
 

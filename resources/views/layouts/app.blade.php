@@ -19,12 +19,13 @@ $navbar = ['menù', 'artwork', 'contacts'];
 
 <body>
 
-    <header>
+    <header class="pt-3">
         <nav class="container my_header-container">
             <ul>
                 <li>
                     <a href=" {{ route('welcome') }} ">
-                        {{ '{DC_logo_image}' }}
+                        <img src="{{ Vite::asset('resources/views/imgs/dc-logo.png') }}" alt="logo header"
+                            style="height: 40px;">
                     </a>
                 </li>
 
@@ -49,7 +50,10 @@ $navbar = ['menù', 'artwork', 'contacts'];
     </header>
 
     <main>
-        @yield('content')
+        <section class="pt-5">
+
+            @yield('content')
+        </section>
     </main>
 
 

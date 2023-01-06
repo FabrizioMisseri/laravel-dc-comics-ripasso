@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="p-4">
+    <section class="pb-4 px-4">
 
         <h3>ciao sono edit n°: {{ $comic->id }} </h3>
         <h4>nome fumetto: {{ $comic->title }} </h4>

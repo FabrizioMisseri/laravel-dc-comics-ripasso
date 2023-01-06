@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="container p-4">
+    <section class="container pb-4 px-4">
 
         <h2>Tutti i fumetti</h2>
         <ul>

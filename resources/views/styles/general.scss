@@ -25,7 +25,6 @@ footer {
 // HEADER
 
 header {
-    height: 60px;
     width: 100%;
 
     ul {
@@ -34,10 +33,6 @@ header {
         flex-wrap: nowrap;
         justify-content: space-between;
 
-        li {
-            line-height: 60px;
-
-        }
     }
 
     position: fixed;

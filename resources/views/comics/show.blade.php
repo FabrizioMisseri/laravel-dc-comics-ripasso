@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container card mt-5 mb-5 p-4">
+    <div class="container card mb-5 p-4">
         <h2 class="mb-3">
             {{ $comic->title }}
         </h2>
@@ -30,7 +30,7 @@
             {{ $comic->id }}
         </h5>
 
-        <div>
+        {{-- <div>
             <a class="btn btn-primary" href=" {{ route('comics.edit', $comic->id) }} ">
                 Modifica
             </a>
@@ -42,7 +42,7 @@
                     &cross;
                 </button>
             </form>
-        </div>
+        </div> --}}
 
     </div>
 @endsection
